@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Styling</title>
+
+    <h1 style="font-size:large ; font-family: 'Times New Roman', Times, serif;">Contact Us Extended</h1>
+
+<style>
+
+.left {
+    text-justify: auto;
+    float:left;
+    width: 50%;
+}
+.right {
+    position:absolute;
+    left: 370px;
+    float:right;
+    width: 50%;
+}
+.text {
+width: 80%;
+max-height: fit-content;
+}
+
+</style>
+    
+</head>
+<body>
+        <div>
+            <div class="left">First name
+                <span style="color:red">*</span>
+            </div>
+            <div class="right">Last name
+                <span style="color:red">*</span>
+            </div>
+            <br>
+            <div class="left">
+                <input type="text" size="38">
+            </div>       
+            <div class="right">
+                <input type="text" size="38">
+            </div> 
+            <br> 
+            <br>
+            <Label>Email
+                <span style="color:red">*</span>
+            </Label>
+            <br>
+                <input type="text" size="90">
+            <br><br>
+            <Label>Phone number</Label>
+            <br>
+                <input type="text" size="90"><br><br>
+            <Label>Address</Label>
+            <br>
+                <textarea id= "Address" rows="10" cols="88" ></textarea>
+            <br>
+            <Label>City</Label>
+            <br>
+                <input type="text" size="90"> <br>
+            <Label>State/Province</Label>
+            <br>
+            <select name="State/Province" style="width: 670px;" >
+                <option value="Ak">AK</option>
+            </select><br><br>
+            <Label>Country</Label><br>
+            <select name="Country" style="width: 670px;">
+                <option value="Afghanistan">Afghanistan</option>  
+            </select><br><br>
+            <Label>ZIP/ Postal code</Label><br>
+                <input type="text" size="90"><br><br>
+            <Label>Comments and Questions</Label><br>
+                <textarea id= "Address" rows="8" cols="88" ></textarea><br><br>
+            <button>
+                Submit
+            </button>
+
+        </div>   
+</body>
+</html>
